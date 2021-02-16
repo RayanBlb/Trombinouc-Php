@@ -1,0 +1,193 @@
+/*configuration par defaut des carrÃ©s */
+section{
+	width: 90%;
+	margin: auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+/**/
+
+/*gestion des different composent des carre*/
+
+/*Gestion des titres*/
+h1{
+	font-size: 40px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color:black;
+}
+.content h2{
+	margin-bottom: 20px;
+	margin-left: 15%;
+
+}
+/**/
+
+/*Gestion du texte*/
+.content p{
+	text-align:center;
+	color:black;
+	font-size: 15px;
+	text-align: justify;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.content img{
+	border-radius: 1em;
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+	width: 80%;
+}
+/**/
+/*gestion du formulaire de connexion*/
+
+form{
+	width: 80%;
+	margin: auto;
+}
+form div.content{
+	margin: 10px;
+}
+form div.content label{
+	font-size: 14px;
+	color:black;
+}
+form div.content-case{
+	margin: 10px;
+}
+form div.content input{
+	width: 100%;
+	height: 20px;
+	display: block;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form div.content select{
+	width: 100%;
+	height: 20px;
+	display: block;
+}
+form h2{
+	border-bottom: 1px solid black;
+	margin: auto;
+	margin: 10px;
+	color:black;
+}
+
+#Inscription div.content p{
+	margin-bottom:25px;
+}
+button{
+	margin: 20px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+
+/**/
+
+/*gestion des carre de l'accueil*/
+.formulaire-connexion{
+	border-radius: 1em;
+	border: 2px solid white;
+	background-color: white;
+	min-height: 300px;
+}
+
+/**/
+
+/*Responsive*/
+
+@media screen and (max-width: 950px) { 
+  ul.MenuResponsive li{
+  	float: none;
+  	margin: auto;
+  }
+#Inscription{
+	min-height: 200px;
+}
+.content img{
+	width: 90%;
+}
+nav li{
+  font-size: 18px;
+}
+nav li.Bouton-right{
+  font-size: 18px;
+}
+}
+/**/
+
+/*base*/
+/*reglage par defaut pour tout objets dans le body*/
+body{
+	font-family: 'Century Gothic', Verdana, Calibri, serif;
+	font-size: 13px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #7FC5E3;
+
+}
+/**/
+
+/*pied de la page*/
+footer{
+	background-color: #008cc7;
+	border-top:2px solid white;
+	text-align: center;
+	border-bottom: 1px solid #eee;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+footer p{
+	color:white;
+}
+
+footer img{
+	margin: auto;
+}
+/**/
+
+/*configuration du menu*/
+nav{
+	border-bottom: 1px solid white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #008cc7;
+  position: sticky;
+  top: 0;
+}
+
+li{
+  float: left;
+  margin-left: 50px;
+  font-size: 18px;
+}
+li.Bouton-right {
+  margin-right: 50px;
+  float: right;
+  font-size: 14px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+	color:#E5F3F9;
+}
+/**/
+/**/

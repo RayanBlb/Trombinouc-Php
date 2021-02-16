@@ -1,0 +1,67 @@
+.menu{
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.menu-sidebar li {
+	padding: 18px 22px 0;
+  font-size: 14px;
+  list-style-type: none;
+}
+.menu-sidebar li > a {
+	color: black;
+	text-decoration: none;
+	list-style-type: none;
+	position: relative;
+}
+.menu-sidebar li > a:hover:after {
+	background-position: -100% 0;
+}
+.menu-sidebar .menu-item-has-children {
+	position: relative;
+}
+.menu-sidebar .menu-item-has-children .sub-menu {
+	display: none;
+}
+.sidebar-menu-arrow::after {
+	content: "\f107";
+	font-family: 'FontAwesome';
+	padding: 10px;
+	color: black;
+	position: relative;
+}
+.sidebar-menu-arrow:hover::after {
+	cursor: pointer;
+	color: #fff;
+}
+.sidebar-menu-arrow:active::after {
+	top: 2px;
+}
+
+
+/*gestion de la partie description*/
+.sub-menu li.descri-p{
+	padding: 10px 30px 0 0;
+}
+.sub-menu li.info-p{
+	padding: 0;
+}
+.menu-sidebar li >p{
+	width: 110%;
+	text-align: justify;
+}
+/**/
+
+.menu-sidebar li > a::after {
+	content: "";
+	display: block;
+	height: 0.15em;
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	left: 50%;
+	transform: translate(-50%);
+	background-image: linear-gradient(to right, transparent 50.3%, #7FC5E3 50.3%);
+	transition: background-position .2s .1s ease-out;
+	background-size: 200% auto;
+}

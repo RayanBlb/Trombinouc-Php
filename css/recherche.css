@@ -1,0 +1,59 @@
+/*gestion du formulaire de connexion*/
+.formulaire-connexion{
+	border-radius: 1em;
+	background-color: white;
+	width: 70%;
+	margin: auto;
+	float: right;
+	margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+
+form{
+	width: 80%;
+	margin: auto;
+}
+form div.content{
+	margin: 10px;
+}
+form div.content label{
+	font-size: 14px;
+	color:black;
+}
+form div.content-case{
+	margin: 10px;
+}
+form div.content input{
+	width: 100%;
+	height: 20px;
+	display: block;
+	border: 1px solid #ccc;
+    border-radius: 4px;
+}
+form div.content select{
+	width: 100%;
+	height: 20px;
+	display: block;
+}
+form h2{
+	border-bottom: 1px solid black;
+	margin: auto;
+	margin: 10px;
+	color:black;
+}
+
+#Inscription div.content p{
+	margin-bottom:25px;
+}
+button{
+	margin: 20px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+}
+
+/**/
+.Pied-recherche{
+	position: fixed;
+}
