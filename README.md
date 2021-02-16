@@ -1,5 +1,5 @@
 # Projet Trombinouc
-Réseau social écrit **PHP** et utilisant une base de données de type **mySQL** 
+Réseau social écrit en **PHP** et utilisant une base de données de type **mySQL** 
 
 ## Prérequis
 - PHP 5.6
